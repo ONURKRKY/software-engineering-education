@@ -16,12 +16,12 @@ int main()
 
 int  topla( int dizi[])
 {
-	int toplam;
+	int sum;
 	
 	for(int i=0;i<4;i++)
 	{
-		toplam+*(dizi+i);
+		sum+*(dizi+i);
 		
 	}
-	return toplam;
+	return sum;
 };
